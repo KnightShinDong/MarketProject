@@ -149,7 +149,7 @@
 	</select>
 	
 	
-	
+	 
 
 	<update id="buycompleteDao"> <!-- 구매완료 -->
 		UPDATE post SET buyuser=#{param2}, hopedate=TO_TIMESTAMP(#{param3},'YY-MM-DD HH24:MI'), buyflag=buyflag+1 WHERE postidx=${param1} 
